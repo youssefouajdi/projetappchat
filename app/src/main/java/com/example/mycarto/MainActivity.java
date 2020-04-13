@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
     }
-
+//salut
     @Override
     public void onLocationChanged(Location location) {
         double latitude=location.getLatitude();
